@@ -12,7 +12,7 @@
     }
   },
   "bin": {
-    "todo-tomb": "./bin/todo-tomb.js"
+    "todo-tomb": "bin/todo-tomb.js"
   },
   "files": [
     "index.js",
