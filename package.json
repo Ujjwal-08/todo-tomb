@@ -1,0 +1,73 @@
+{
+  "name": "todo-tomb",
+  "version": "1.0.0",
+  "description": "Find every TODO in a repo and show how long it has been rotting, using git blame",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "bin": {
+    "todo-tomb": "./bin/todo-tomb.js"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "src",
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "todo",
+    "fixme",
+    "hack",
+    "code-comments",
+    "technical-debt",
+    "tech-debt",
+    "git-blame",
+    "codebase-audit",
+    "cli",
+    "static-analysis",
+    "code-quality",
+    "todo-comments"
+  ],
+  "author": "Ujjwal Dadhich",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ujjwal-08/todo-tomb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ujjwal-08/todo-tomb/issues"
+  },
+  "homepage": "https://github.com/Ujjwal-08/todo-tomb#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "sideEffects": false,
+  "devDependencies": {
+    "@semantic-release/commit-analyzer": "^13.0.1",
+    "@semantic-release/github": "^12.0.6",
+    "@semantic-release/npm": "^13.1.5",
+    "@semantic-release/release-notes-generator": "^14.1.0",
+    "semantic-release": "^25.0.3"
+  },
+  "funding": [
+    {
+      "type": "patreon",
+      "url": "https://www.patreon.com/cw/BABU_ISHU"
+    },
+    {
+      "type": "individual",
+      "url": "https://www.paypal.com/ncp/payment/SECBQ62TRZZ6Y"
+    }
+  ]
+}
